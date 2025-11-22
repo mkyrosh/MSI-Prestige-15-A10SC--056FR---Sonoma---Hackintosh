@@ -84,9 +84,12 @@ Before installing macOS, make sure to configure your BIOS settings properly:
 6. Configure BIOS settings as listed above
 7. Boot from the USB drive and install macOS Sonoma
 
-# Boot Issues Troubleshooting
+### Boot Issues Troubleshooting
 
-If you experience boot difficulties (more than 3 minutes with a black screen), please update your boot arguments with the following: alcid=3 -wegnoegpu igfxonln=1 igfxfw=2 darkwake=0
+If you experience boot difficulties (more than 3 minutes with a black screen), please update your boot arguments with the following: 
+
+- alcid=3 -wegnoegpu igfxonln=1 igfxfw=2 darkwake=0
+
 This should resolve the issue and allow your system to boot normally.
 
 ## 🔄 Updating OpenCore
