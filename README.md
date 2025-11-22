@@ -87,6 +87,7 @@ Before installing macOS, make sure to configure your BIOS settings properly:
 ### Boot Issues Troubleshooting
 
 If you experience boot difficulties (more than 3 minutes with a black screen), please update your boot arguments with the following: 
+NVRAM → Add → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args
 
 - alcid=3 -wegnoegpu igfxonln=1 igfxfw=2 darkwake=0
 
